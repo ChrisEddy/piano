@@ -1,0 +1,51 @@
+.whiteKey{
+  background-color: white;
+  height: 95vh;
+  width: 50px;
+  margin: 5px;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 0px 0px 2px 2px;
+  cursor: pointer;
+}
+.whiteKey:hover{
+  background-color:#f3f3f3;
+}
+.octaveContainer, #keyContainer, .blackKeyContainer{
+  display: flex;
+}
+.octaveContainer{
+  position: relative;
+}
+.blackKeyContainer{
+  position: relative;
+  right: 391px;
+  height: 50vh;
+}
+.whiteNoteText{
+  bottom: 25px;
+  margin-left: 15px;
+  position: absolute;
+}
+.blackNoteText{
+  bottom: 439px;
+  margin-left: 12px;
+}
+.blackKey{
+  background-color: black;
+  height: 100%;
+  width: 50px;
+  margin: 5px;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 0px 0px 2px 2px;
+  cursor: pointer;
+  color: white;
+}
+.blackKey:hover{
+  background-color: #333333;
+}
+.spacerKey{
+  background-color: transparent;
+  height: 50vh;
+  width: 50px;
+  margin: 5px;
+}
